@@ -5,23 +5,25 @@
     src: url("../fonts/Neucha-Regular.ttf") format("ttf");
     font-weight: 400;
 }
+
 @font-face {
     font-family: 'Open Sans', sans-serif;
     src: url("../fonts/OpenSans-Regular.ttf") format("ttf");
     font-weight: 400;
 }
+
 @font-face {
     font-family: 'Open Sans', sans-serif;
     src: url("../fonts/OpenSans-Bold.ttf") format("ttf");
     font-weight: 700;
 }
 
-
 body {
     font-family: 'Open Sans', sans-serif;
     font-size: 16px;
     color: #2a2626;
 }
+
 h1,
 h2,
 h3,
@@ -29,4 +31,10 @@ h4,
 h5,
 h6 {
     font-family: "Neucha", cursive;
+}
+
+.wrapper {
+    width: 100%;
+    max-width: 1110px;
+    margin: 100px auto;
 }
